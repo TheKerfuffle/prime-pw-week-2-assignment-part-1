@@ -21,7 +21,7 @@ let food = 'Scrambled eggs with spinach and cheese';
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 1;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 6;
+let friendsPets = 3;
 // 11 - Add two pets to your `pets` variable
 pets +=2;
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
@@ -65,7 +65,8 @@ else {
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
 
-let mostPets = 0;
+/*
+let mostPets;
 if (pets >= friendsPets){
   mostPets = pets;
   console.log(mostPets);
@@ -73,10 +74,11 @@ if (pets >= friendsPets){
   mostPets = friendsPets;
   console.log(mostPets);
 }
+*/
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
-// let mostPets = 0;
+let mostPets;
 // This is where I declare mostPets if it hasn't already been declared
 switch (pets>=friendsPets) {
   case true:
