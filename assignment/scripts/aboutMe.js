@@ -23,7 +23,7 @@ let pets = 1;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 3;
 // 11 - Add two pets to your `pets` variable
-pets +=2;
+pets += 2;
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 2;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
@@ -49,7 +49,7 @@ if (pets < allowedPets) {
   console.log('I can have more pets!');
 }
 
-else if (pets == allowedPets) {
+else if (pets === allowedPets) {
   console.log('I have enough pets');
 }
 
