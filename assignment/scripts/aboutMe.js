@@ -65,7 +65,7 @@ else {
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
 
-/*
+
 let mostPets;
 if (pets >= friendsPets){
   mostPets = pets;
@@ -74,11 +74,11 @@ if (pets >= friendsPets){
   mostPets = friendsPets;
   console.log(mostPets);
 }
-*/
+
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
-let mostPets;
+//let mostPets;
 // This is where I declare mostPets if it hasn't already been declared
 switch (pets>=friendsPets) {
   case true:
